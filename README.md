@@ -6,7 +6,13 @@ Q2:
 Find out Salary trends between Male and Female employees during each decade in every department. The output should be in the following format: Department, Decade, Gender, avg_salary. Please upload the final CSV along with the code and jar files(if any) to your github and provide the link below.
 
 
-To get this done I have performed one query which get the Department name, Decade , Gender and Average salary.
+To get this done I have performed  and used "Hive" and "Pig" with query which get the Department name, Decade , Gender and Average salary.
+
+
+** Using Hive first I get the employee records with department wise, decade wise and mentioned gender wise with salary.
+
+** Then the Hive Out put file used in Pig to calculate the average salary of department wise , decade wise and gender wise.
+
 
 In this question I have First get the All Department types.
 Then the term "Decade" indicates that 10 years of span, for this I have checked the all department data and employess from, to date data and as analysis found that the data available from 1985.
@@ -65,5 +71,17 @@ In this way,Each depatment then 4 derived decades  for Gender M and Gender F.
  Now to get the remaning departments-decades-gender wise file need to chnage the values in script.
  
  due to in-suffecient space on created hadoop machine Not able to process this large number of all departmnets data, but bty changing values in given script will get the reqired otput files.
+ 
+ ** Added Folder File details as:
+ 
+ 1. "Dept_sales_Gender_female_Deacde_1981_1990_Avg_csv" this folder, the "Part-r-00000" file get generated and also the "_SUCCESS" get generated and this  used  to store Average salary of all employees who belong under Sales department, Female gender and under 1981-1990 decade.
+ 
+ 
+ 2. "Dept_sales_Gender_female_Deacde_1991_2000" this folder have the CSV file  "000000_0" file  which have the List of Sales department , all female employees which belong under "1991-2000" decade.
+ 
+ 3."Dept_sales_Gender_female_Decade1981_1990" This folder have the CSV file "00000_0" file which have the list of Sales department , all female employees which belong under "1981-1990" decade.
+ 
+ 
+ 
  
  
