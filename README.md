@@ -81,6 +81,8 @@ In this way,Each depatment then 4 derived decades  for Gender M and Gender F.
  
  3."Dept_sales_Gender_female_Decade1981_1990" This folder have the CSV file "00000_0" file which have the list of Sales department , all female employees which belong under "1981-1990" decade.
  
+ 4."Dept_sales_Gender_male_Deacde_1981_1990" This folder have the CSV file "000000_0" file which hav ethe list of  male employees from sales department, under 1981-1990 decade.
+ 
  
  
  
